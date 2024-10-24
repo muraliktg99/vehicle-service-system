@@ -16,13 +16,19 @@ This repository contains a Django project for the Vehicle Service System.
     pip install -r requirements.txt
     ```
 
-3. Run database migrations:
+3. Install the project dependencies:
+
+    ```shell
+    cd delivery_management
+    ```
+
+4. Run database migrations:
 
     ```shell
     python manage.py migrate
     ```
 
-4. Start the development server:
+5. Start the development server:
 
     ```shell
     python manage.py runserver
